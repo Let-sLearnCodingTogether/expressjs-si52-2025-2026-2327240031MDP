@@ -29,6 +29,6 @@ const LinkSchema = new mongoose.Schema(
     }
 )
 
-const LinkModel = mongoose.Model("Link", LinkSchema)
+const LinkModel = mongoose.model("Link", LinkSchema)
 
 export default LinkModel;
